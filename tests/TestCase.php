@@ -1,8 +1,8 @@
 <?php
 
-namespace Creagia\FilamentCodeField\Tests;
+namespace Afsdarif\FilamentCodeField\Tests;
 
-use Creagia\FilamentCodeField\FilamentCodeFieldServiceProvider;
+use Afsdarif\FilamentCodeField\FilamentCodeFieldServiceProvider;
 use Filament\FilamentServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
@@ -15,7 +15,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Creagia\\FilamentCodeField\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Afsdarif\\FilamentCodeField\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

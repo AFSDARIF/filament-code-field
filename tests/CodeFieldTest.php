@@ -1,6 +1,6 @@
 <?php
 
-use Creagia\FilamentCodeField\CodeField;
+use Afsdarif\FilamentCodeField\CodeField;
 
 it('can setup the desired programming language', function () {
     $codeField = CodeField::make('test');

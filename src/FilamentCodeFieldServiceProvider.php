@@ -1,6 +1,6 @@
 <?php
 
-namespace Creagia\FilamentCodeField;
+namespace Afsdarif\FilamentCodeField;
 
 use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;
@@ -24,6 +24,6 @@ class FilamentCodeFieldServiceProvider extends PackageServiceProvider
         FilamentAsset::register([
             Css::make(static::$name, __DIR__.'/../resources/dist/filament-code-field.css'),
             Js::make(static::$name, __DIR__.'/../resources/dist/filament-code-field.js'),
-        ], 'creagia/filament-code-field');
+        ], 'afsdarif/filament-code-field');
     }
 }

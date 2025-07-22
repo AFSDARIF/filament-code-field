@@ -1,6 +1,6 @@
 <?php
 
-namespace Creagia\FilamentCodeField\Concerns;
+namespace Afsdarif\FilamentCodeField\Concerns;
 
 trait Autocompletion
 {

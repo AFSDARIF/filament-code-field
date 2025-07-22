@@ -1,12 +1,12 @@
 <?php
 
-namespace Creagia\FilamentCodeField;
+namespace Afsdarif\FilamentCodeField;
 
-use Creagia\FilamentCodeField\Concerns\Autocompletion;
-use Creagia\FilamentCodeField\Concerns\ControlsHeight;
-use Creagia\FilamentCodeField\Concerns\HasDisplayMode;
-use Creagia\FilamentCodeField\Concerns\LineNumbers;
-use Creagia\FilamentCodeField\Concerns\ProgrammingLanguages;
+use Afsdarif\FilamentCodeField\Concerns\Autocompletion;
+use Afsdarif\FilamentCodeField\Concerns\ControlsHeight;
+use Afsdarif\FilamentCodeField\Concerns\HasDisplayMode;
+use Afsdarif\FilamentCodeField\Concerns\LineNumbers;
+use Afsdarif\FilamentCodeField\Concerns\ProgrammingLanguages;
 use Filament\Forms\Components\Concerns;
 use Filament\Forms\Components\Contracts;
 use Filament\Forms\Components\Field;

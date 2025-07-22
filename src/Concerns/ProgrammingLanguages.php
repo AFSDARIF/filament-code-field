@@ -1,8 +1,8 @@
 <?php
 
-namespace Creagia\FilamentCodeField\Concerns;
+namespace Afsdarif\FilamentCodeField\Concerns;
 
-use Creagia\FilamentCodeField\CodeField;
+use Afsdarif\FilamentCodeField\CodeField;
 
 trait ProgrammingLanguages
 {
